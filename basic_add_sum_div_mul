@@ -1,0 +1,27 @@
+import java.util.Scanner;//Scanner class and package is java.util
+public class JavaProgram
+{
+    public static void main(String args[])
+    {
+        int first , second, sum , subtract , multiply;
+        
+        float devide;
+        
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter Two Number : ");
+        first = scanner.nextInt();
+        second = scanner.nextInt();
+        
+        sum = first + second;
+        subtract = first - second;
+        multiply = first * second;
+        devide = (float) first/second;
+        
+        System.out.println("Sum = " + sum);
+        System.out.println("subtract = " + subtract);
+        System.out.println("multiple = " + multiply);
+        System.out.println("devide = " +devide);
+        
+        
+    }
+}
