@@ -1,0 +1,141 @@
+import java.util.Scanner;//Scanner class and package is java.util
+import java.io.*;
+public class JavaProgram
+{
+    public static void main(String args[])
+    {
+    //     int first , second, sum , subtract , multiply;
+        
+    //    float devide;
+    //    double radius;
+      
+        
+    //     Scanner scanner = new Scanner(System.in);
+    //     System.out.print("Enter The Two Number  : ");
+    //      first = scanner.nextInt();
+    //     second = scanner.nextInt();
+    //   radius = scanner.nextInt();
+    //   System.out.println("befor the swapping ");
+    //     System.out.println("First = " + first);
+    //     System.out.println("Second = " + second);
+    //   first = first + second; // 15 = 10 + 5;
+    //   second = first - second ;// 10 = 15 - 5;
+    //   first = first - second; // 15 - 10 = 5;
+    //   System.out.println("After the swaping ");
+       
+    //     System.out.println("First = " + first);
+    //     System.out.println("Second = " + second);
+        
+    //     sum = first + second;
+    //     subtract = first - second;
+    //     multiply = first * second;
+    //     devide = (float) first/second;
+    //     double area = Math.PI * radius * radius;
+    //     double perimeter = 2 * Math.PI * radius;
+        
+    //    System.out.println("Sum = " + sum);
+    //   System.out.println("subtract = " + subtract);
+    //     System.out.println("multiple = " + multiply);
+    //   System.out.println("devide = " +devide);
+    //   System.out.println("Area is = " + area);
+    //   System.out.println("Perimeter is = " + area);
+        
+        // int first ;
+        // int second;
+        // //create a object 
+        // Scanner scanner = new Scanner(System.in);
+        // System.out.println("Enter the two number : ");
+        // first = scanner.nextInt();
+        // second = scanner.nextInt();
+        
+        // if(first == 0){
+        //     first = second;
+        //     second = 0;
+        // }
+        // else if(second == 0){
+        //     first = 0;
+        //     second = first;
+        // }
+        // //code to swap first and second
+        // // first = 10
+        // //second = 5
+        // else{
+        //     first = first * second; // first  = 50
+        //     second = first / second; //second = 10
+        //     first = first/second; //first = 5;
+            
+        // }
+        
+        
+        // System.out.println("After swapping :" + first);
+        // System.out.println("After Swapping : " + second);
+        
+        // int num;
+        // Scanner scanner = new Scanner(System.in);
+        // System.out.println("Enter the number : ");
+        // num = scanner.nextInt();
+        
+        // int sum = 0;
+        // while(num>0){
+        //     int rem = num % 10;
+        //     sum = sum + rem;
+        //     num = num/10;
+        // }
+        // System.out.println("sum of the digits is : " + sum );;
+        
+        
+        //5. Write a Java program to reverse a number.
+        // int num;
+        // Scanner scanner = new Scanner(System.in);
+        // System.out.println("Enter the number : ");
+        // num = scanner.nextInt();
+        
+        // int rev = 0;
+        // while(num>0){
+        //     int rem = num % 10;
+        //     rev = rev *10 + rem;
+        //     num = num/10;
+        // }
+        // System.out.println("rev of the number is : " + rev );
+        
+        
+        
+      //  Write a Java program to count the letters, spaces, numbers and other
+      //  characters of an input string
+
+      
+        //   String str;
+        //   Scanner sc = new Scanner(System.in);//object creation 
+        //   System.out.println("Enter the String : - ");
+        //   str = sc.nextLine();
+        //   char ch[] = str.toCharArray(); //string to char 
+        //   int letters = 0;
+        //   int spaces = 0;
+        //   int digit = 0;
+        //   int other = 0;
+        //   for(int i = 0;i<str.length();i++){
+        //       if(Character.isLetter(ch[i])){
+        //           letters++;
+        //       }
+        //      else if(Character.isSpaceChar(ch[i])){
+        //           spaces++;
+        //       }
+        //       else if(Character.isDigit(ch[i])){
+        //           digit++;
+        //       }
+        //       else{
+        //           other++;
+        //       }
+        //   }
+          
+          
+        //   System.out.println("letters = "+letters);
+        //   System.out.println("spaces = " + spaces);
+        //   System.out.println("digit = "+digit);
+        //   System.out.println("other = " + other);
+         
+          
+      
+      
+    }
+}
